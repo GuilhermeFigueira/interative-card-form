@@ -1,7 +1,13 @@
+import { FormEvent } from "react";
+
 export default function CardForm() {
+	const sendForm = (event: FormEvent) => {
+		event.preventDefault();
+	};
+
 	return (
 		<div>
-			<form action="" className="flex flex-col p-5 gap-5">
+			<form onSubmit={sendForm} className="flex flex-col p-5 pt-20 gap-5">
 				<div className="flex flex-col">
 					<label htmlFor="">CARDHOLDER NAME</label>
 					<input
@@ -22,7 +28,7 @@ export default function CardForm() {
 				<div className="grid grid-cols-[40%_1fr] gap-3">
 					<div className="flex flex-col ">
 						<label htmlFor="month">EXP. DATE (MM/YY)</label>
-						<div className="grid grid-cols-2">
+						<div className="grid grid-cols-2 gap-2">
 							<input
 								type="number"
 								name="month"
