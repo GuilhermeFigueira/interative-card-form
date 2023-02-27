@@ -6,3 +6,9 @@
 	-webkit-font-smoothing: subpixel-antialiased;
 	@apply font-sans;
 }
+input {
+	@apply border border-violet-light rounded-md p-2;
+}
+label {
+	@apply text-sm text-violet-dark font-thin;
+}

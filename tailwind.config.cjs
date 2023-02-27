@@ -12,6 +12,10 @@ module.exports = {
 					dark: "hsl(278, 68%, 11%)",
 				},
 			},
+			backgroundImage: {
+				background_desktop: "url('/bg-main-desktop.png')",
+				background_mobile: "url('/bg-main-mobile.png')",
+			},
 		},
 	},
 	plugins: [],
