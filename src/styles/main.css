@@ -7,11 +7,17 @@
 	@apply font-sans;
 }
 input {
-	@apply border border-violet-light rounded-md p-2 py-2;
+	@apply border border-violet-light rounded-md p-2 py-2 focus:outline-none w-full;
 }
 input::placeholder {
 	opacity: 0.7;
 }
 label {
 	@apply text-sm text-violet-dark font-thin pb-2;
+}
+.input_gradient {
+	@apply p-[2px] rounded-lg focus-within:bg-gradient-to-r from-input_gradient-left to-input_gradient-right;
+}
+.input_error {
+	@apply p-[2px] rounded-lg focus-within:bg-red;
 }

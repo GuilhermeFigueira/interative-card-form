@@ -6,10 +6,15 @@ module.exports = {
 		extend: {
 			colors: {
 				white: "hsl(0, 0%, 100%)",
+				red: "hsl(0, 100%, 66%)",
 				violet: {
 					light: "hsl(270, 3%, 87%)",
 					gray: " hsl(279, 6%, 55%)",
 					dark: "hsl(278, 68%, 11%)",
+				},
+				input_gradient: {
+					left: "hsl(249, 99%, 64%)",
+					right: "hsl(278, 94%, 30%)",
 				},
 			},
 			backgroundImage: {
