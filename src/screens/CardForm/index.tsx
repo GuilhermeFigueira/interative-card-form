@@ -1,4 +1,5 @@
 import { FormEvent } from "react";
+import { useForm } from "react-hook-form";
 
 export default function CardForm() {
 	const sendForm = (event: FormEvent) => {
@@ -7,7 +8,10 @@ export default function CardForm() {
 
 	return (
 		<div>
-			<form onSubmit={sendForm} className="flex flex-col p-5 pt-20 gap-5">
+			<form
+				onSubmit={sendForm}
+				className="flex flex-col p-5 sm:p-16 gap-5 max-w-screen-sm"
+			>
 				<div className="flex flex-col">
 					<label htmlFor="">CARDHOLDER NAME</label>
 					<div className="input_gradient">

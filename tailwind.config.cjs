@@ -20,6 +20,8 @@ module.exports = {
 			backgroundImage: {
 				background_desktop: "url('/bg-main-desktop.png')",
 				background_mobile: "url('/bg-main-mobile.png')",
+				front_card: "url('/bg-card-front.png')",
+				back_card: "url('/bg-card-back.png')",
 			},
 		},
 	},
