@@ -45,7 +45,7 @@ function App() {
 			</div>
 			<div className="h-screen w-screen grid grid-rows-[30%_1fr] xl:grid-cols-[30%_1fr] xl:grid-rows-none">
 				<header className="bg-background_mobile xl:bg-background_desktop bg-cover bg-no-repeat"></header>
-				<main className="flex h-full m-auto items-center">
+				<main className="flex h-full m-auto items-center flex-wrap content-end">
 					{isConfirmed ? <ThankYouPage /> : <CardForm />}
 				</main>
 			</div>
