@@ -1,9 +1,12 @@
-import { FormEvent } from "react";
+import { FormEvent, useContext } from "react";
 import { useForm } from "react-hook-form";
+import { InfoContext } from "../../contexts/info";
 
 export default function CardForm() {
+	const { setIsConfirmed, setCardNumbers } = useContext(InfoContext);
 	const sendForm = (event: FormEvent) => {
 		event.preventDefault();
+		setIsConfirmed(true);
 	};
 
 	return (
@@ -30,6 +33,9 @@ export default function CardForm() {
 							type="text"
 							name="number"
 							placeholder="e.g 1234 5678 9123 0000"
+							onChange={(event) => {
+								setCardNumbers(event.target.value);
+							}}
 						/>
 					</div>
 				</div>
