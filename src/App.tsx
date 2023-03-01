@@ -10,23 +10,23 @@ function App() {
 
 	return (
 		<div>
-			<div className="absolute ">
+			<div className="absolute transition-all">
 				<div>
 					{/* <img src="/bg-card-back.png" alt="Back of the card" /> */}
 				</div>
-				<div className="z-10 relative items-center w-[22rem] md:w-auto transition-all md:h-64 h-44 ">
+				<div className="w-[22rem] h-44 md:w-auto md:h-64 ">
 					<img
 						src="/bg-card-front.png"
 						alt=""
-						className=" bg-cover bg-no-repeat bg-center "
+						className="w-[22rem] h-44 md:w-auto md:h-64 bg-cover bg-no-repeat bg-center"
 					/>
-					<div className="absolute grid grid-rows-2 top-0 h-full w-full font-thin">
-						<div className="flex p-6 px-5 gap-4 content-start flex-wrap items-center">
+					<div className="absolute grid grid-rows-2 top-0 h-full w-full">
+						<div className="flex flex-wrap items-center content-start p-6 px-5 gap-4">
 							<div className="bg-white rounded-full w-10 h-10"></div>
-							<div className="rounded-full border border-white w-5 h-5"></div>
+							<div className="border border-white rounded-full w-5 h-5"></div>
 						</div>
 						<div className="grid grid-rows-2 text-white p-2 px-3 md:p-6 md:px-8 uppercase">
-							<div className="text-center md:text-3xl text-2xl text tracking-widest">
+							<div className="text-center text-2xl md:text-3xl tracking-widest">
 								0000 0000 0000 0000
 							</div>
 							<div className="flex justify-between items-end text-sm px-2">
