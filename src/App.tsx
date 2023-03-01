@@ -11,8 +11,15 @@ function App() {
 	return (
 		<div>
 			<div className="absolute">
-				<div>
-					{/* <img src="/bg-card-back.png" alt="Back of the card" /> */}
+				<div className="relative w-[21.5rem] h-48 md:w-[28rem] md:h-60 transition-all">
+					<img
+						src="/bg-card-back.png"
+						alt="Back of the card"
+						className="w-[21.5rem] h-48 md:w-[28rem] md:h-60 bg-cover bg-no-repeat bg-center"
+					/>
+					<div className="absolute top-[5rem] md:top-[6.2rem] w-full flex justify-end h-[1.9rem] md:h-[2.4rem] pr-10 md:pr-12 items-center">
+						<span className="text-white font-xs">000</span>
+					</div>
 				</div>
 				{/* Desktop 450 240 */}
 				<div className="relative w-[21.5rem] h-48 md:w-[28rem] md:h-60  transition-all">
