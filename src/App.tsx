@@ -14,22 +14,23 @@ function App() {
 				<div>
 					{/* <img src="/bg-card-back.png" alt="Back of the card" /> */}
 				</div>
-				<div className="w-[22rem] h-44 md:w-auto md:h-64 ">
+				{/* Desktop 450 240 */}
+				<div className="w-[22rem] h-48 md:w-[28rem] md:h-60 ">
 					<img
 						src="/bg-card-front.png"
 						alt=""
-						className="w-[22rem] h-44 md:w-auto md:h-64 bg-cover bg-no-repeat bg-center"
+						className="w-[22rem] h-48 md:w-[28rem] md:h-60 bg-cover bg-no-repeat bg-center"
 					/>
 					<div className="absolute grid grid-rows-2 top-0 h-full w-full">
-						<div className="flex flex-wrap items-center content-start p-6 px-5 gap-4">
+						<div className="flex flex-wrap items-center content-start p-6 px-7 gap-4">
 							<div className="bg-white rounded-full w-10 h-10"></div>
 							<div className="border border-white rounded-full w-5 h-5"></div>
 						</div>
-						<div className="grid grid-rows-2 text-white p-2 px-3 md:p-6 md:px-8 uppercase">
+						<div className="grid grid-rows-2 items-end w-fit m-auto md:w-full text-white uppercase">
 							<div className="text-center text-2xl md:text-3xl tracking-widest">
 								0000 0000 0000 0000
 							</div>
-							<div className="flex justify-between items-end text-sm px-2">
+							<div className="flex justify-between items-end text-xs md:px-7">
 								<span>Name</span> <span>00/00</span>
 							</div>
 						</div>
