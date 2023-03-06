@@ -6,9 +6,9 @@
 
 ## English
 
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Interactive Card Form
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive card details form on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -17,19 +17,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-
 - [Author](#author)
 
 ## Overview
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/95925774/221325415-e7482aea-2077-4b58-8224-68db682d0189.png)
+<img width="550px"  src="https://user-images.githubusercontent.com/95925774/223144144-c1a78b4b-bbf1-4b95-b2a2-3eebfcd884fe.png">
+<img width="550px"  src="https://user-images.githubusercontent.com/95925774/223144104-ec0ef70b-845a-44cb-8f71-1e1e7ae4d394.png">
+<img width="150px"  src="https://user-images.githubusercontent.com/95925774/223145278-d66ce449-7e78-4a62-afdf-7d05158e8528.png">
 
 ### Links
 
-- Solution URL: [FrontEndMentor Solution URL](https://www.frontendmentor.io/solutions/tailwindcss-and-react-qr-code-component-_3XhaNB8Xp)
-- Live Site URL: [Vercel Live Solution Website](https://qr-code-component-guilhermefigueira.vercel.app)
+- Solution URL: <a href="https://www.frontendmentor.io/solutions/interactive-card-form-with-react-hook-form-d3zXeeVkTh" target="_blank">FrontEndMentor Solution URL</a>
+- Live Site URL: <a href="https://interative-card-form-guilhermefigueira.vercel.app" target="_blank">Vercel Live Solution Website</a>
 
 ## My process
 
@@ -38,9 +39,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind](https://tailwindcss.com) - CSS
+- [React Hook Form](https://react-hook-form.com)
 
 ## Author
 
@@ -49,41 +52,44 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Português
 
-# Frontend Mentor - Solução do componente de QR Code 
+# Frontend Mentor - Solução do componente de QR Code
 
-Essa é uma solução do [Desafio do Componente de QR Code Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades criando projetos realistas.
+Essa é uma solução do [Formulário interativo de cadastro de cartão do Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades criando projetos realistas.
 
 ## Conteúdos
 
-- [Visão geral](#visãogeral)
+- [Visão geral](#visão-geral)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-
-- [Author](#author)
+- [Meu Processo](#processo)
+  - [Feito com](#feito-com)
+- [Autor](#autor)
 
 ## Visão Geral
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/95925774/221325415-e7482aea-2077-4b58-8224-68db682d0189.png)
+<img width="550px"  src="https://user-images.githubusercontent.com/95925774/223144144-c1a78b4b-bbf1-4b95-b2a2-3eebfcd884fe.png">
+<img width="550px"  src="https://user-images.githubusercontent.com/95925774/223144104-ec0ef70b-845a-44cb-8f71-1e1e7ae4d394.png">
+<img width="150px"  src="https://user-images.githubusercontent.com/95925774/223145278-d66ce449-7e78-4a62-afdf-7d05158e8528.png">
 
 ### Links
 
-- URL da solução no FrontendMentor: [FrontEndMentor Solution URL](https://www.frontendmentor.io/solutions/tailwindcss-and-react-qr-code-component-_3XhaNB8Xp)
-- Solução no Vercel: [Vercel Live Solution Website](https://qr-code-component-guilhermefigueira.vercel.app)
+- URL da solução no FrontendMentor: <a href="https://www.frontendmentor.io/solutions/interactive-card-form-with-react-hook-form-d3zXeeVkTh" target="_blank">FrontEndMentor Solution URL</a>
+- Solução no Vercel: <a href="https://interative-card-form-guilhermefigueira.vercel.app" target="_blank">Vercel Live Solution Website</a>
 
 ## Processo
 
-### Built with
+### Feito com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Marcação semântica com HTML5
+- Propriedades customizadas com CSS
 - Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+- Grid
+- Fluxo de trabalho mobile-first
+- [React](https://reactjs.org/) - Biblioteca Javascript
 - [Tailwind](https://tailwindcss.com) - CSS
+- [React Hook Form](https://react-hook-form.com)
 
 ## Autor
 

@@ -278,6 +278,24 @@ function App() {
 								<button className="bg-violet-dark text-white rounded-md py-4 mt-2">
 									Confirm
 								</button>
+								<div className="text-center pt-4">
+									Challenge by{" "}
+									<a
+										href="https://www.frontendmentor.io?ref=challenge"
+										target="_blank"
+									>
+										Frontend Mentor
+									</a>
+									. Coded by{" "}
+									<a
+										href="https://github.com/guilhermefigueira"
+										target="_blank"
+										className="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-sky-700 font-bold hover:text-lg transition-all "
+									>
+										Guilherme Figueira
+									</a>
+									.
+								</div>
 							</form>
 						</div>
 					)}
